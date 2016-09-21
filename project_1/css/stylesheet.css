@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+  font-size: 115%;
+  position: relative;
+  margin: 0px;
+  text-align: left;
+  font-family: "Comic Sans MS", "Trebuchet MS", Verdana, sans-serif;
+  color: #5C007A;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #BB00FA;
+  font-size: 1.75em;
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+  position: relative;
+  padding-right: 1%;
+} 
+
+
+/********** Large devices **********/
+@media (min-width: 992px) {
+  .col-lg-3 {
+    float: left;
+    position: relative;
+    border: 1px solid #794DFF;
+    width: 32.33%;
+    margin-left: 1%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: #ABFF8F;
+    padding : 0px 10px 10px 10px;  
+  }
+}
+
+  /********** Medium devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-2, .col-md-1 {
+    float: left;
+    position: relative;
+    margin-top: 10px;
+    border: 1px solid #794DFF;
+    background: #ABFF8F;
+    padding : 0px 10px 10px 10px;
+    
+  }
+  .col-md-2 {
+    width: 49%;
+    margin-left: 1%;
+  }
+
+  .col-md-1 {
+    width: 99%;
+    margin-left: 1%; 
+    margin-bottom: 20px;
+  }
+}
+
+  /********** Small devices **********/
+@media (max-width: 767px) {
+  .col-sm-1 {
+    float: left;
+    position: relative;
+    width: 99%;
+    margin-left: 1%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #794DFF;
+    background: #ABFF8F;
+    padding : 0px 10px 10px 10px;
+  }
+}
+
+.title_chicken, .title_beef, .title_sushi {
+  font-size: 1.25em;
+  text-align: center;
+  display: inline;
+  position: absolute;
+  right: 0px;
+  width: 200px;
+  border-bottom: 1px #794DFF solid;
+  border-left: 1px #794DFF solid;
+  margin-top: 0px;
+  color: #B8002E;
+}
+
+.title_chicken {
+  background: #FFD966;
+}
+
+.title_beef {
+  background: #FF8C66;
+}
+
+.title_sushi {
+  background: #FF668C;
+}
+
+.text {
+  position: relative;
+  padding-top: 50px;
+  margin: 0;
+}
